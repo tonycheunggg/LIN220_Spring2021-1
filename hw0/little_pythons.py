@@ -20,9 +20,9 @@ def split_words(text):
         >>> split_words("This is an example.")
         ["This","is","an","example."]
     """
-
+    x = text.split(" ")
+    print(x)
     return
-
 
 def caps_only(text):
     """
@@ -34,7 +34,7 @@ def caps_only(text):
     Returns:
         (str): Running text with space-delimited words, all lowercase words removed
     """
-
+    
     return
 
 
